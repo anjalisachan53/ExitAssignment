@@ -1,0 +1,144 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Flipkart Tests Suite">
+
+    <!-- AddToCartTest -->
+    <test name="AddToCartTest">
+        <classes>
+            <class name="Test.AddToCartTest"/>
+        </classes>
+    </test>
+
+    <!-- CustomerCareTest -->
+    <test name="CustomerCareTest">
+        <classes>
+            <class name="Test.CustomerCareTest"/>
+        </classes>
+    </test>
+
+    <!-- FlipkartCareTest -->
+    <test name="FlipkartCareerTest">
+        <classes>
+            <class name="Test.FlipkartCareerTest"/>
+        </classes>
+    </test>
+
+    <!-- FlipkartElectronicsTest -->
+    <test name="FlipkartElectronicsTest">
+        <classes>
+            <class name="Test.FlipkartElectronicsTest"/>
+        </classes>
+    </test>
+
+    <!-- FlipkartFlightGoogleTest -->
+    <test name="FlipkartFlightGoogleTest">
+        <classes>
+            <class name="Test.FlipkartFlightGoogleTest"/>
+        </classes>
+    </test>
+
+    <!-- FlipkartFlightTest -->
+    <test name="FlipkartFlightTest">
+        <classes>
+            <class name="Test.FlipkartFlightTest"/>
+        </classes>
+    </test>
+
+    <!-- FlipkartGroceryTest -->
+    <test name="FlipkartGroceryTest">
+        <classes>
+            <class name="Test.FlipkartGroceryTest"/>
+        </classes>
+    </test>
+
+    <!-- FlipkartMyntraTest -->
+    <test name="FlipkartMyntraTest">
+        <classes>
+            <class name="Test.FlipkartMyntraTest"/>
+        </classes>
+    </test>
+
+    <!-- FlipkartPlusTest -->
+    <test name="FlipkartPlusTest">
+        <classes>
+            <class name="Test.FlipkartPlusTest"/>
+        </classes>
+    </test>
+
+    <!-- FlipkartSocialMediaTest -->
+    <test name="FlipkartSocialMediaTest">
+        <classes>
+            <class name="Test.FlipkartSocialMediaTest"/>
+        </classes>
+    </test>
+    
+     <!-- FlipkartSocialMediaTest -->
+    <test name="FlipkartStoriesTest">
+        <classes>
+            <class name="Test.FlipkartStoriesTest"/>
+        </classes>
+    </test>
+
+    <!-- GiftCardTest -->
+    <test name="GiftCardTest">
+        <classes>
+            <class name="Test.GiftCardTest"/>
+        </classes>
+    </test>
+
+    <!-- LoginTest -->
+    <test name="LoginTest">
+        <classes>
+            <class name="Test.LoginTest"/>
+        </classes>
+    </test>
+
+    <!-- NotificationPreferenceTest -->
+    <test name="NotificationPreferencesTes">
+        <classes>
+            <class name="Test.NotificationPreferencesTes"/>
+        </classes>
+    </test>
+
+    <!-- OfferZoneTest -->
+    <test name="OfferZoneTest">
+        <classes>
+            <class name="Test.OfferZoneTest"/>
+        </classes>
+    </test>
+
+    <!-- PincodeChangeTest -->
+    <test name="PincodeChangeTest">
+        <classes>
+            <class name="Test.PincodeChangeTest"/>
+        </classes>
+    </test>
+    
+    <!-- PincodeChangeTest -->
+    <test name="ProductFilter">
+        <classes>
+            <class name="Test.ProductFilter"/>
+        </classes>
+    </test>
+
+    <!-- RemoveProductTest -->
+    <test name="RemoveProductTest">
+        <classes>
+            <class name="Test.RemoveProductTest"/>
+        </classes>
+    </test>
+
+    <!-- SearchTest -->
+    <test name="SearchTest">
+        <classes>
+            <class name="Test.SearchTest"/>
+        </classes>
+    </test>
+
+    <!-- SellerTest -->
+    <test name="SellerTest">
+        <classes>
+            <class name="Test.SellerTest"/>
+        </classes>
+    </test>
+
+</suite>

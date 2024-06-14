@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="32" passed="29" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-14T11:02:23 IST" name="Flipkart Tests Suite" finished-at="2024-06-14T11:06:07 IST" duration-ms="223467">
+    <groups>
+    </groups>
+    <test started-at="2024-06-14T11:02:23 IST" name="AddToCartTest" finished-at="2024-06-14T11:02:43 IST" duration-ms="20189">
+      <class name="Test.AddToCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.AddToCartTest@466cf502]" started-at="2024-06-14T11:02:23 IST" name="setUp" finished-at="2024-06-14T11:02:31 IST" duration-ms="8076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.AddToCartTest@466cf502]" started-at="2024-06-14T11:02:31 IST" name="setup" finished-at="2024-06-14T11:02:33 IST" duration-ms="1646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddProductToCart(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Test.AddToCartTest@466cf502]" started-at="2024-06-14T11:02:33 IST" name="testAddProductToCart" data-provider="addToCartData" finished-at="2024-06-14T11:02:33 IST" duration-ms="44" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[searchpage]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[headphone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductToCart -->
+        <test-method signature="testAddProductToCart(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Test.AddToCartTest@466cf502]" started-at="2024-06-14T11:02:33 IST" name="testAddProductToCart" data-provider="addToCartData" finished-at="2024-06-14T11:02:43 IST" duration-ms="9682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[addtocartpage]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[headphone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductToCart -->
+        <test-method signature="testAddProductToCart(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Test.AddToCartTest@466cf502]" started-at="2024-06-14T11:02:43 IST" name="testAddProductToCart" data-provider="addToCartData" finished-at="2024-06-14T11:02:43 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[loginpage]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[person1@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductToCart -->
+        <test-method signature="testAddProductToCart(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Test.AddToCartTest@466cf502]" started-at="2024-06-14T11:02:43 IST" name="testAddProductToCart" data-provider="addToCartData" finished-at="2024-06-14T11:02:43 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[productfilterpage]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.AddToCartTest@466cf502]" started-at="2024-06-14T11:02:43 IST" name="tearDown" finished-at="2024-06-14T11:02:43 IST" duration-ms="626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.AddToCartTest -->
+    </test> <!-- AddToCartTest -->
+    <test started-at="2024-06-14T11:02:43 IST" name="CustomerCareTest" finished-at="2024-06-14T11:02:50 IST" duration-ms="6796">
+      <class name="Test.CustomerCareTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.CustomerCareTest@56b78e55]" started-at="2024-06-14T11:02:43 IST" name="setUp" finished-at="2024-06-14T11:02:47 IST" duration-ms="3271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.CustomerCareTest@56b78e55]" started-at="2024-06-14T11:02:47 IST" name="setup" finished-at="2024-06-14T11:02:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCustomerCare()[pri:2, instance:Test.CustomerCareTest@56b78e55]" started-at="2024-06-14T11:02:47 IST" name="testCustomerCare" finished-at="2024-06-14T11:02:50 IST" duration-ms="3449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomerCare -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.CustomerCareTest@56b78e55]" started-at="2024-06-14T11:02:50 IST" name="tearDown" finished-at="2024-06-14T11:02:50 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.CustomerCareTest -->
+    </test> <!-- CustomerCareTest -->
+    <test started-at="2024-06-14T11:02:50 IST" name="FlipkartCareerTest" finished-at="2024-06-14T11:02:59 IST" duration-ms="9172">
+      <class name="Test.FlipkartCareerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.FlipkartCareerTest@585811a4]" started-at="2024-06-14T11:02:50 IST" name="setUp" finished-at="2024-06-14T11:02:54 IST" duration-ms="3377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCareerLink()[pri:3, instance:Test.FlipkartCareerTest@585811a4]" started-at="2024-06-14T11:02:54 IST" name="testCareerLink" finished-at="2024-06-14T11:02:59 IST" duration-ms="5770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCareerLink -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.FlipkartCareerTest@585811a4]" started-at="2024-06-14T11:02:54 IST" name="setup" finished-at="2024-06-14T11:02:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.FlipkartCareerTest@585811a4]" started-at="2024-06-14T11:02:59 IST" name="tearDown" finished-at="2024-06-14T11:02:59 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.FlipkartCareerTest -->
+    </test> <!-- FlipkartCareerTest -->
+    <test started-at="2024-06-14T11:02:59 IST" name="FlipkartElectronicsTest" finished-at="2024-06-14T11:03:08 IST" duration-ms="9130">
+      <class name="Test.FlipkartElectronicsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.FlipkartElectronicsTest@2d72f75e]" started-at="2024-06-14T11:02:59 IST" name="setUp" finished-at="2024-06-14T11:03:02 IST" duration-ms="2665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.FlipkartElectronicsTest@2d72f75e]" started-at="2024-06-14T11:03:02 IST" name="setup" finished-at="2024-06-14T11:03:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testMiLink()[pri:4, instance:Test.FlipkartElectronicsTest@2d72f75e]" started-at="2024-06-14T11:03:02 IST" name="testMiLink" finished-at="2024-06-14T11:03:08 IST" duration-ms="6438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMiLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.FlipkartElectronicsTest@2d72f75e]" started-at="2024-06-14T11:03:08 IST" name="tearDown" finished-at="2024-06-14T11:03:08 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.FlipkartElectronicsTest -->
+    </test> <!-- FlipkartElectronicsTest -->
+    <test started-at="2024-06-14T11:03:08 IST" name="FlipkartFlightGoogleTest" finished-at="2024-06-14T11:03:22 IST" duration-ms="13430">
+      <class name="Test.FlipkartFlightGoogleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.FlipkartFlightGoogleTest@23c388c2]" started-at="2024-06-14T11:03:08 IST" name="setUp" finished-at="2024-06-14T11:03:11 IST" duration-ms="2705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGooglePlayLink()[pri:5, instance:Test.FlipkartFlightGoogleTest@23c388c2]" started-at="2024-06-14T11:03:11 IST" name="testGooglePlayLink" finished-at="2024-06-14T11:03:22 IST" duration-ms="10709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGooglePlayLink -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.FlipkartFlightGoogleTest@23c388c2]" started-at="2024-06-14T11:03:11 IST" name="setup" finished-at="2024-06-14T11:03:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.FlipkartFlightGoogleTest@23c388c2]" started-at="2024-06-14T11:03:22 IST" name="tearDown" finished-at="2024-06-14T11:03:22 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.FlipkartFlightGoogleTest -->
+    </test> <!-- FlipkartFlightGoogleTest -->
+    <test started-at="2024-06-14T11:03:22 IST" name="FlipkartFlightTest" finished-at="2024-06-14T11:03:33 IST" duration-ms="10872">
+      <class name="Test.FlipkartFlightTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.FlipkartFlightTest@5a62b2a4]" started-at="2024-06-14T11:03:22 IST" name="setUp" finished-at="2024-06-14T11:03:25 IST" duration-ms="2725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFlightsLink()[pri:6, instance:Test.FlipkartFlightTest@5a62b2a4]" started-at="2024-06-14T11:03:25 IST" name="testFlightsLink" finished-at="2024-06-14T11:03:33 IST" duration-ms="8014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlightsLink -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.FlipkartFlightTest@5a62b2a4]" started-at="2024-06-14T11:03:25 IST" name="setup" finished-at="2024-06-14T11:03:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.FlipkartFlightTest@5a62b2a4]" started-at="2024-06-14T11:03:33 IST" name="tearDown" finished-at="2024-06-14T11:03:33 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.FlipkartFlightTest -->
+    </test> <!-- FlipkartFlightTest -->
+    <test started-at="2024-06-14T11:03:33 IST" name="FlipkartGroceryTest" finished-at="2024-06-14T11:03:39 IST" duration-ms="6252">
+      <class name="Test.FlipkartGroceryTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.FlipkartGroceryTest@41beb473]" started-at="2024-06-14T11:03:33 IST" name="setUp" finished-at="2024-06-14T11:03:37 IST" duration-ms="3794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.FlipkartGroceryTest@41beb473]" started-at="2024-06-14T11:03:37 IST" name="setup" finished-at="2024-06-14T11:03:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGroceryLink()[pri:7, instance:Test.FlipkartGroceryTest@41beb473]" started-at="2024-06-14T11:03:37 IST" name="testGroceryLink" finished-at="2024-06-14T11:03:39 IST" duration-ms="2409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGroceryLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.FlipkartGroceryTest@41beb473]" started-at="2024-06-14T11:03:39 IST" name="tearDown" finished-at="2024-06-14T11:03:39 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.FlipkartGroceryTest -->
+    </test> <!-- FlipkartGroceryTest -->
+    <test started-at="2024-06-14T11:03:39 IST" name="FlipkartMyntraTest" finished-at="2024-06-14T11:03:50 IST" duration-ms="10872">
+      <class name="Test.FlipkartMyntraTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.FlipkartMyntraTest@677dbd89]" started-at="2024-06-14T11:03:39 IST" name="setUp" finished-at="2024-06-14T11:03:42 IST" duration-ms="2974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMyntraLink()[pri:8, instance:Test.FlipkartMyntraTest@677dbd89]" started-at="2024-06-14T11:03:42 IST" name="testMyntraLink" finished-at="2024-06-14T11:03:50 IST" duration-ms="7852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMyntraLink -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.FlipkartMyntraTest@677dbd89]" started-at="2024-06-14T11:03:42 IST" name="setup" finished-at="2024-06-14T11:03:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.FlipkartMyntraTest@677dbd89]" started-at="2024-06-14T11:03:50 IST" name="tearDown" finished-at="2024-06-14T11:03:50 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.FlipkartMyntraTest -->
+    </test> <!-- FlipkartMyntraTest -->
+    <test started-at="2024-06-14T11:03:50 IST" name="FlipkartPlusTest" finished-at="2024-06-14T11:03:56 IST" duration-ms="6606">
+      <class name="Test.FlipkartPlusTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.FlipkartPlusTest@b93aad]" started-at="2024-06-14T11:03:50 IST" name="setUp" finished-at="2024-06-14T11:03:53 IST" duration-ms="2710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFlipkartPlusPage()[pri:9, instance:Test.FlipkartPlusTest@b93aad]" started-at="2024-06-14T11:03:53 IST" name="testFlipkartPlusPage" finished-at="2024-06-14T11:03:56 IST" duration-ms="3849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlipkartPlusPage -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.FlipkartPlusTest@b93aad]" started-at="2024-06-14T11:03:53 IST" name="setup" finished-at="2024-06-14T11:03:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.FlipkartPlusTest@b93aad]" started-at="2024-06-14T11:03:56 IST" name="tearDown" finished-at="2024-06-14T11:03:56 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.FlipkartPlusTest -->
+    </test> <!-- FlipkartPlusTest -->
+    <test started-at="2024-06-14T11:03:56 IST" name="FlipkartSocialMediaTest" finished-at="2024-06-14T11:04:06 IST" duration-ms="9429">
+      <class name="Test.FlipkartSocialMediaTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.FlipkartSocialMediaTest@41394595]" started-at="2024-06-14T11:03:57 IST" name="setUp" finished-at="2024-06-14T11:04:00 IST" duration-ms="3070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.FlipkartSocialMediaTest@41394595]" started-at="2024-06-14T11:04:00 IST" name="setup" finished-at="2024-06-14T11:04:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testYoutubeLink()[pri:10, instance:Test.FlipkartSocialMediaTest@41394595]" started-at="2024-06-14T11:04:00 IST" name="testYoutubeLink" finished-at="2024-06-14T11:04:06 IST" duration-ms="6303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testYoutubeLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.FlipkartSocialMediaTest@41394595]" started-at="2024-06-14T11:04:06 IST" name="tearDown" finished-at="2024-06-14T11:04:06 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.FlipkartSocialMediaTest -->
+    </test> <!-- FlipkartSocialMediaTest -->
+    <test started-at="2024-06-14T11:04:06 IST" name="FlipkartStoriesTest" finished-at="2024-06-14T11:04:21 IST" duration-ms="15129">
+      <class name="Test.FlipkartStoriesTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.FlipkartStoriesTest@287f94b1]" started-at="2024-06-14T11:04:06 IST" name="setUp" finished-at="2024-06-14T11:04:09 IST" duration-ms="2681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.FlipkartStoriesTest@287f94b1]" started-at="2024-06-14T11:04:09 IST" name="setup" finished-at="2024-06-14T11:04:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFlipkartStoriesSubscribe()[pri:11, instance:Test.FlipkartStoriesTest@287f94b1]" started-at="2024-06-14T11:04:09 IST" name="testFlipkartStoriesSubscribe" finished-at="2024-06-14T11:04:21 IST" duration-ms="12413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlipkartStoriesSubscribe -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.FlipkartStoriesTest@287f94b1]" started-at="2024-06-14T11:04:21 IST" name="tearDown" finished-at="2024-06-14T11:04:21 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.FlipkartStoriesTest -->
+    </test> <!-- FlipkartStoriesTest -->
+    <test started-at="2024-06-14T11:04:21 IST" name="GiftCardTest" finished-at="2024-06-14T11:04:28 IST" duration-ms="6480">
+      <class name="Test.GiftCardTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.GiftCardTest@525d79f0]" started-at="2024-06-14T11:04:21 IST" name="setUp" finished-at="2024-06-14T11:04:24 IST" duration-ms="2690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.GiftCardTest@525d79f0]" started-at="2024-06-14T11:04:24 IST" name="setup" finished-at="2024-06-14T11:04:24 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGiftCardPage()[pri:12, instance:Test.GiftCardTest@525d79f0]" started-at="2024-06-14T11:04:24 IST" name="testGiftCardPage" finished-at="2024-06-14T11:04:28 IST" duration-ms="3773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGiftCardPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.GiftCardTest@525d79f0]" started-at="2024-06-14T11:04:28 IST" name="tearDown" finished-at="2024-06-14T11:04:28 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.GiftCardTest -->
+    </test> <!-- GiftCardTest -->
+    <test started-at="2024-06-14T11:04:28 IST" name="LoginTest" finished-at="2024-06-14T11:04:35 IST" duration-ms="7551">
+      <class name="Test.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.LoginTest@5707c1cb]" started-at="2024-06-14T11:04:28 IST" name="setUp" finished-at="2024-06-14T11:04:31 IST" duration-ms="3162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.LoginTest@5707c1cb]" started-at="2024-06-14T11:04:31 IST" name="setup" finished-at="2024-06-14T11:04:31 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginLink(java.lang.String,java.lang.String,java.lang.String)[pri:13, instance:Test.LoginTest@5707c1cb]" started-at="2024-06-14T11:04:31 IST" name="testLoginLink" data-provider="loginData" finished-at="2024-06-14T11:04:31 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[searchpage]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[headphone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLink -->
+        <test-method signature="testLoginLink(java.lang.String,java.lang.String,java.lang.String)[pri:13, instance:Test.LoginTest@5707c1cb]" started-at="2024-06-14T11:04:31 IST" name="testLoginLink" data-provider="loginData" finished-at="2024-06-14T11:04:31 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[addtocartpage]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[headphone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLink -->
+        <test-method signature="testLoginLink(java.lang.String,java.lang.String,java.lang.String)[pri:13, instance:Test.LoginTest@5707c1cb]" started-at="2024-06-14T11:04:31 IST" name="testLoginLink" data-provider="loginData" finished-at="2024-06-14T11:04:35 IST" duration-ms="4300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[loginpage]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[person1@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLink -->
+        <test-method signature="testLoginLink(java.lang.String,java.lang.String,java.lang.String)[pri:13, instance:Test.LoginTest@5707c1cb]" started-at="2024-06-14T11:04:35 IST" name="testLoginLink" data-provider="loginData" finished-at="2024-06-14T11:04:35 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[productfilterpage]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.LoginTest@5707c1cb]" started-at="2024-06-14T11:04:35 IST" name="tearDown" finished-at="2024-06-14T11:04:35 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test started-at="2024-06-14T11:04:35 IST" name="NotificationPreferencesTes" finished-at="2024-06-14T11:04:42 IST" duration-ms="6862">
+      <class name="Test.NotificationPreferencesTes">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.NotificationPreferencesTes@50305a]" started-at="2024-06-14T11:04:35 IST" name="setUp" finished-at="2024-06-14T11:04:38 IST" duration-ms="3232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.NotificationPreferencesTes@50305a]" started-at="2024-06-14T11:04:38 IST" name="setup" finished-at="2024-06-14T11:04:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testNotificationPreferences()[pri:14, instance:Test.NotificationPreferencesTes@50305a]" started-at="2024-06-14T11:04:38 IST" name="testNotificationPreferences" finished-at="2024-06-14T11:04:42 IST" duration-ms="3612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotificationPreferences -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.NotificationPreferencesTes@50305a]" started-at="2024-06-14T11:04:42 IST" name="tearDown" finished-at="2024-06-14T11:04:42 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.NotificationPreferencesTes -->
+    </test> <!-- NotificationPreferencesTes -->
+    <test started-at="2024-06-14T11:04:42 IST" name="OfferZoneTest" finished-at="2024-06-14T11:05:07 IST" duration-ms="24626">
+      <class name="Test.OfferZoneTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.OfferZoneTest@2ad3a1bb]" started-at="2024-06-14T11:04:42 IST" name="setUp" finished-at="2024-06-14T11:04:46 IST" duration-ms="3638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.OfferZoneTest@2ad3a1bb]" started-at="2024-06-14T11:04:46 IST" name="setup" finished-at="2024-06-14T11:04:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAppleIpadLink()[pri:15, instance:Test.OfferZoneTest@2ad3a1bb]" started-at="2024-06-14T11:04:46 IST" name="testAppleIpadLink" finished-at="2024-06-14T11:05:07 IST" duration-ms="20971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppleIpadLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.OfferZoneTest@2ad3a1bb]" started-at="2024-06-14T11:05:07 IST" name="tearDown" finished-at="2024-06-14T11:05:07 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.OfferZoneTest -->
+    </test> <!-- OfferZoneTest -->
+    <test started-at="2024-06-14T11:05:07 IST" name="PincodeChangeTest" finished-at="2024-06-14T11:05:20 IST" duration-ms="13457">
+      <class name="Test.PincodeChangeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.PincodeChangeTest@aec50a1]" started-at="2024-06-14T11:05:07 IST" name="setUp" finished-at="2024-06-14T11:05:10 IST" duration-ms="3488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.PincodeChangeTest@aec50a1]" started-at="2024-06-14T11:05:10 IST" name="setup" finished-at="2024-06-14T11:05:10 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testChangePincode(java.lang.String,java.lang.String,java.lang.String)[pri:16, instance:Test.PincodeChangeTest@aec50a1]" started-at="2024-06-14T11:05:10 IST" name="testChangePincode" data-provider="pincodeData" finished-at="2024-06-14T11:05:20 IST" duration-ms="9835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pincodepage]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangePincode -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.PincodeChangeTest@aec50a1]" started-at="2024-06-14T11:05:20 IST" name="tearDown" finished-at="2024-06-14T11:05:20 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.PincodeChangeTest -->
+    </test> <!-- PincodeChangeTest -->
+    <test started-at="2024-06-14T11:05:20 IST" name="ProductFilter" finished-at="2024-06-14T11:05:30 IST" duration-ms="10304">
+      <class name="Test.ProductFilter">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.ProductFilter@173b9122]" started-at="2024-06-14T11:05:20 IST" name="setUp" finished-at="2024-06-14T11:05:23 IST" duration-ms="3293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.ProductFilter@173b9122]" started-at="2024-06-14T11:05:23 IST" name="setup" finished-at="2024-06-14T11:05:23 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testApplySamsungFilter(java.lang.String,java.lang.String,java.lang.String)[pri:17, instance:Test.ProductFilter@173b9122]" started-at="2024-06-14T11:05:23 IST" name="testApplySamsungFilter" data-provider="productData" finished-at="2024-06-14T11:05:23 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[searchpage]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[headphone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplySamsungFilter -->
+        <test-method signature="testApplySamsungFilter(java.lang.String,java.lang.String,java.lang.String)[pri:17, instance:Test.ProductFilter@173b9122]" started-at="2024-06-14T11:05:23 IST" name="testApplySamsungFilter" data-provider="productData" finished-at="2024-06-14T11:05:23 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[addtocartpage]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[headphone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplySamsungFilter -->
+        <test-method signature="testApplySamsungFilter(java.lang.String,java.lang.String,java.lang.String)[pri:17, instance:Test.ProductFilter@173b9122]" started-at="2024-06-14T11:05:23 IST" name="testApplySamsungFilter" data-provider="productData" finished-at="2024-06-14T11:05:23 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[loginpage]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[person1@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplySamsungFilter -->
+        <test-method signature="testApplySamsungFilter(java.lang.String,java.lang.String,java.lang.String)[pri:17, instance:Test.ProductFilter@173b9122]" started-at="2024-06-14T11:05:23 IST" name="testApplySamsungFilter" data-provider="productData" finished-at="2024-06-14T11:05:30 IST" duration-ms="6880" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[productfilterpage]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplySamsungFilter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.ProductFilter@173b9122]" started-at="2024-06-14T11:05:30 IST" name="tearDown" finished-at="2024-06-14T11:05:30 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.ProductFilter -->
+    </test> <!-- ProductFilter -->
+    <test started-at="2024-06-14T11:05:30 IST" name="RemoveProductTest" finished-at="2024-06-14T11:05:48 IST" duration-ms="17541">
+      <class name="Test.RemoveProductTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.RemoveProductTest@40bffbca]" started-at="2024-06-14T11:05:30 IST" name="setUp" finished-at="2024-06-14T11:05:34 IST" duration-ms="3102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRemoveItemFromCart()[pri:18, instance:Test.RemoveProductTest@40bffbca]" started-at="2024-06-14T11:05:34 IST" name="testRemoveItemFromCart" finished-at="2024-06-14T11:05:48 IST" duration-ms="14410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveItemFromCart -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.RemoveProductTest@40bffbca]" started-at="2024-06-14T11:05:34 IST" name="setup" finished-at="2024-06-14T11:05:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.RemoveProductTest@40bffbca]" started-at="2024-06-14T11:05:48 IST" name="tearDown" finished-at="2024-06-14T11:05:48 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.RemoveProductTest -->
+    </test> <!-- RemoveProductTest -->
+    <test started-at="2024-06-14T11:05:48 IST" name="SearchTest" finished-at="2024-06-14T11:05:56 IST" duration-ms="8192">
+      <class name="Test.SearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.SearchTest@384fc774]" started-at="2024-06-14T11:05:48 IST" name="setUp" finished-at="2024-06-14T11:05:51 IST" duration-ms="2983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.SearchTest@384fc774]" started-at="2024-06-14T11:05:51 IST" name="setup" finished-at="2024-06-14T11:05:51 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchPageTest(java.lang.String,java.lang.String,java.lang.String)[pri:19, instance:Test.SearchTest@384fc774]" started-at="2024-06-14T11:05:51 IST" name="searchPageTest" data-provider="searchData" finished-at="2024-06-14T11:05:56 IST" duration-ms="5103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[searchpage]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[headphone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPageTest -->
+        <test-method signature="searchPageTest(java.lang.String,java.lang.String,java.lang.String)[pri:19, instance:Test.SearchTest@384fc774]" started-at="2024-06-14T11:05:56 IST" name="searchPageTest" data-provider="searchData" finished-at="2024-06-14T11:05:56 IST" duration-ms="8" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[addtocartpage]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[headphone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\ANJALI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52124}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52124/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\ANJALI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52124}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52124/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
+at utils.captureScreenshot.captureScreenshot(captureScreenshot.java:19)
+at Test.SearchTest.searchPageTest(SearchTest.java:72)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPageTest -->
+        <test-method signature="searchPageTest(java.lang.String,java.lang.String,java.lang.String)[pri:19, instance:Test.SearchTest@384fc774]" started-at="2024-06-14T11:05:56 IST" name="searchPageTest" data-provider="searchData" finished-at="2024-06-14T11:05:56 IST" duration-ms="9" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[loginpage]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[person1@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\ANJALI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52124}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52124/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\ANJALI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52124}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52124/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
+at utils.captureScreenshot.captureScreenshot(captureScreenshot.java:19)
+at Test.SearchTest.searchPageTest(SearchTest.java:72)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPageTest -->
+        <test-method signature="searchPageTest(java.lang.String,java.lang.String,java.lang.String)[pri:19, instance:Test.SearchTest@384fc774]" started-at="2024-06-14T11:05:56 IST" name="searchPageTest" data-provider="searchData" finished-at="2024-06-14T11:05:56 IST" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[productfilterpage]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\ANJALI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52124}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52124/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\ANJALI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52124}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52124/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
+at utils.captureScreenshot.captureScreenshot(captureScreenshot.java:19)
+at Test.SearchTest.searchPageTest(SearchTest.java:72)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.SearchTest@384fc774]" started-at="2024-06-14T11:05:56 IST" name="tearDown" finished-at="2024-06-14T11:05:56 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.SearchTest -->
+    </test> <!-- SearchTest -->
+    <test started-at="2024-06-14T11:05:56 IST" name="SellerTest" finished-at="2024-06-14T11:06:07 IST" duration-ms="10377">
+      <class name="Test.SellerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.SellerTest@15bcf458]" started-at="2024-06-14T11:05:56 IST" name="setUp" finished-at="2024-06-14T11:06:00 IST" duration-ms="4169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSellerPage()[pri:20, instance:Test.SellerTest@15bcf458]" started-at="2024-06-14T11:06:00 IST" name="testSellerPage" finished-at="2024-06-14T11:06:07 IST" duration-ms="6178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSellerPage -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.SellerTest@15bcf458]" started-at="2024-06-14T11:06:00 IST" name="setup" finished-at="2024-06-14T11:06:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.SellerTest@15bcf458]" started-at="2024-06-14T11:06:07 IST" name="tearDown" finished-at="2024-06-14T11:06:07 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.SellerTest -->
+    </test> <!-- SellerTest -->
+  </suite> <!-- Flipkart Tests Suite -->
+</testng-results>
