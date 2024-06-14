@@ -1,0 +1,35 @@
+pipeline {
+    agent any
+    tools {
+        maven 'Maven'
+    }
+
+    stages {
+        stage('Build') {
+            steps {
+                dir('ExitAssignment') {
+                    bat 'mvn install'
+                }
+            }
+        }
+        stage('Test') {
+            steps {
+                dir('ExitAssignment') {
+                    bat 'mvn test -DsuiteXmlFile=src/test/resources/testng.xml'
+                }
+            }
+            post {
+                failure {
+                    echo 'Selenium tests failed! Failing the pipeline.'
+                }
+            }
+        }
+        stage('Clean') {
+            steps {
+                dir('ExitAssignment') {
+                    bat 'mvn clean'
+                }
+            }
+        }
+    }
+}
